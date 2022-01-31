@@ -1,0 +1,218 @@
+body {
+    background-color: #9C1D00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 16px;
+}
+
+button:hover, button:active {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+.row {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-div {
+    justify-content: start;
+    height: 725px;
+    width: 215px;
+}
+.header{
+    height: 800px;
+    width: 100%;
+    text-align : center;
+}
+
+.footer {
+    height: 50px;;
+    width: 100%;
+    text-align : center;
+    background-color:#9C1D00;
+}
+
+.part-div-1 {
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+    background-color: #E7F1F8;
+}
+.part-div-2 {
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+    background-color: white;
+}
+.two-blocks-div {
+    display:flex;
+    justify-content:center;
+}
+.two-blocks-div > div {
+    margin:10px;
+  }
+
+.title-div{
+    font-weight: bold;
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 30px;
+    color : #3B3838;
+}
+
+.text-div-1 {
+    width: 30%;
+    float:left;
+    padding-top : 10%;
+    padding-left: 15%;
+}
+
+.text-div-2 {
+    text-align: center;
+    padding-left : 15%;
+    padding-right : 15%;
+}
+
+.text-div-3 {
+    width: 30%;
+    float:left;
+    padding-top : 5%;
+    padding-left: 15%;
+}
+
+
+.text-p {
+    font-family: Helvetica;
+    text-align: left; 
+}
+
+.viz-div {
+    width : 70%;
+    float: right;
+}
+
+.graph-div {
+    padding-left : 100px;
+}
+
+.table-div{
+    padding-left : 100px;
+    padding-right : 100px;
+
+}
+.table-option-title {
+    font-family: Helvetica;
+    color : #3B3838;
+    text-align: center;
+}
+
+.text-italic {
+    font-style : italic;
+    font-size: 12px;
+}
+
+#treemap-title {
+    font-family: Helvetica;
+    color : #3B3838;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#panel {
+    background-color: white;
+    position: relative;
+    left: -215px;
+}
+
+#close-button, #theme {
+    font-family: 'Open Sans Condensed';
+}
+
+#marker-title, #mode {
+    font-family: 'Oswald';
+}
+
+#theme {
+    padding-top: 25px;
+}
+
+#header-H2{
+    font-family: Helvetica;
+    color: white;
+    margin-top : 400px
+}
+
+#img-header {
+    padding-top: 50px;
+    height: 10%;
+    width: 10%;
+}
+
+#link-header {
+    padding-top: 50px;
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-H3{
+    font-family: Helvetica;
+    color: white;
+    padding-top : 0px
+}
+
+.table-container {
+    display:flex;
+    justify-content:center;
+    width: 80%;
+    margin: 0 auto;
+  }
+.table-container > div {
+    margin:1px;
+  }
+.first-table {
+    width:33%;
+  }
+ .second-table {
+    width:33%;
+  }
+ .third-table {
+    width:33%;
+  }
+
+.distinction-container {
+    display:flex;
+    justify-content:center;
+    width: 80%;
+    margin: 0 auto;
+  }
+.distinction-container > div {
+    margin:1px;
+  }
+.graph-distinction {
+    padding-left:15%;
+    width:65%;
+  }
+.table-distinction {
+    padding-right:15%;
+    padding-left:100px;
+    width:35%;
+  }
